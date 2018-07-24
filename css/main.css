@@ -196,12 +196,15 @@ header .social li:first-child{
 
 /*		Hero section 		*/
 
+@media screen 
+and (min-device-width: 1500px) {
+
 .hero{
 	display: block;
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/newHero.jpg') no-repeat fixed center center;
+	background: url('../img/hero.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
 
@@ -214,6 +217,77 @@ header .social li:first-child{
 	-webkit-transform:translate(0,-50%);
 	-moz-transform:translate(0,-50%);
 	-o-transform:translate(0,-50%);
+}
+}
+
+@media screen 
+and (min-device-width: 992px) {
+	
+.hero{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 560px;
+	background: url('../img/medHero.jpg') no-repeat fixed center center;
+	background-size: cover;
+}
+
+.hero .caption{
+	position: absolute;
+	max-width: 550px;
+	margin-left: 80px;
+	top: 50%;
+	transform:translate(0,-50%);
+	-webkit-transform:translate(0,-50%);
+	-moz-transform:translate(0,-50%);
+	-o-transform:translate(0,-50%);
+}
+}
+@media screen 
+and (min-device-width: 768px) {
+	
+.hero{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 560px;
+	background: url('../img/smlHero.jpg') no-repeat fixed center center;
+	background-size: cover;
+}
+
+.hero .caption{
+	position: absolute;
+	max-width: 550px;
+	margin-left: 80px;
+	top: 50%;
+	transform:translate(0,-50%);
+	-webkit-transform:translate(0,-50%);
+	-moz-transform:translate(0,-50%);
+	-o-transform:translate(0,-50%);
+}
+}
+@media screen 
+and (max-device-width: 768px) {
+	
+.hero{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 560px;
+	background: url('../img/phoneHero.jpg') no-repeat fixed center center;
+	background-size: cover;
+}
+
+.hero .caption{
+	position: absolute;
+	max-width: 550px;
+	margin-left: 80px;
+	top: 50%;
+	transform:translate(0,-50%);
+	-webkit-transform:translate(0,-50%);
+	-moz-transform:translate(0,-50%);
+	-o-transform:translate(0,-50%);
+}
 }
 
 .hero .caption h1{
